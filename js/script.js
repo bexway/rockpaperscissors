@@ -5,5 +5,3 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-
-

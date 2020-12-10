@@ -5,3 +5,7 @@
 //GLOBAL VARIABLES
 /* global $ */
 
+$("#shoot").click(function(){
+  let userInput = $("#input").val()
+  $("#result").text(userInput)
+})

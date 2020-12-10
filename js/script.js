@@ -5,7 +5,25 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-$("#shoot").click(function(){
-  let userInput = $("#input").val()
-  $("#result").text(userInput)
-})
+let userChoice;
+let computerChoice;
+let randomNumber = 0;
+
+$("#rock").click(function() {
+  $("#input").val("Rock");
+});
+
+$("#paper").click(function() {
+  $("#input").val("Paper");
+});
+
+$("#scissors").click(function() {
+  $("#input").val("Scissors");
+});
+
+$("#shoot").click(function() {
+  let userChoice = $("#input").val();
+  let randomNumber = Math.random();
+  console.log(randomNumber);
+  $("#result").text(userChoice);
+});
